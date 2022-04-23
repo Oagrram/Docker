@@ -1,0 +1,1 @@
+docker run --name lair  -d  -p 8080:80 -e WORDPRESS_DB_NAME=zerglings  -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=Kerrigan  -e WORDPRESS_DB_HOST=spawning-pool -e WORDPRESS_TABLE_PREFIX=wp_  wordpress && docker network create website && docker network connect website lair && docker network connect website spawning-pool
