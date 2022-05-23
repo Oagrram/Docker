@@ -37,4 +37,4 @@ CMD /opt/gitlab/embedded/bin/runsvdir-start& gitlab-ctl reconfigure ; service ss
 # git config --global user.email "admin@example.com"
 # git config --global http.sslverify "false"
 # clone with https = git clone https://ip/root/my_first_project.git
-# clone with ssh use ssh-keygen and copy public key to profile setting and clone 
+# clone with ssh use ssh-keygen and copy public key to profile setting and clone  
