@@ -1,1 +1,2 @@
-apt update && apt upgrade && apt install build-essential && apt install vim && apt install git
+apt update && apt -y  upgrade && apt install -y  build-essential && apt install -y vim && apt install -y git
+#  docker run -it --rm debian

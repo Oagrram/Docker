@@ -1,7 +1,0 @@
-FROM ruby
-RUN apt update &&  apt -y upgrade  && apt -y install sqlite3  && apt -y  install nodejs && gem install rails && mkdir app
-#COPY app ./app
-ENTRYPOINT rails new app
- 
-#docker build -f Dockerfile-APP -t app . && docker run -d  app
-#docker cp id:/app ./app
