@@ -31,7 +31,7 @@ EXPOSE 80 443 2222
 CMD /opt/gitlab/embedded/bin/runsvdir-start& gitlab-ctl reconfigure ; service ssh restart ; bash
 
 #docker build --build-arg MY_HOST=$(docker-machine ip char) -t gitlab .
-#docker run -it -e GITLAB_ROOT_PASSWORD=root --privileged -p 80:80 -p 443:443 -p 2222:2222 gitlab
+#docker run -it -e GITLAB_ROOT_PASSWORD=root_root --privileged -p 8080:80 -p 443:443 -p 2222:2222 gitlab
 
 # git config --global user.name "Administrator"
 # git config --global user.email "admin@example.com"
