@@ -1,4 +1,4 @@
-#  Docker 42
+#  Docker 42cursus
 
 ## <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"  width="40px"> About the project
 
