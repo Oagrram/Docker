@@ -1,4 +1,4 @@
-# 42 Docker
+#  Docker 42
 
 ## <img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"  width="40px"> About the project
 
